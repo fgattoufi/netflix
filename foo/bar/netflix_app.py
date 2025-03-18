@@ -5,7 +5,7 @@ import numpy as np
 from datetime import datetime
 
 # Charger le dataset
-df = pd.read_csv('netflix_titles.csv')
+df = pd.read_csv('https://github.com/fgattoufi/netflix/blob/4512070e5c1f4c0a390f90f66760c653fc385201/netflix_titles.csv')
 
 # Examiner les premières lignes
 print(df.head())
